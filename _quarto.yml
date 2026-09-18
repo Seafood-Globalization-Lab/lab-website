@@ -25,6 +25,7 @@ website:
   navbar:
     search: true
     title: false
+    logo: /images/Seafood Globalization Lab_Logo_Full color_Horizontal.png
     background: "#F6F5F3"
     logo-alt: "Seafood Globalization Lab"
     left:
