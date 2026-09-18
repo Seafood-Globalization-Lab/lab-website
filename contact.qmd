@@ -1,23 +1,15 @@
 ---
-title: "David J. Masiello"
-about: 
-  id: contact
-  template: solana
-  image-shape: round
-  image: people/masiello-david/avatar.png
-# page-layout: full
+title: "Contact"
+page-layout: full
 ---
-
-
 
 :::{#contact}
 
-#### {{< fa envelope >}} &nbsp; masiello@uw.edu
+#### {{< fa envelope >}} &nbsp; [email@example.edu]
 
-#### {{< fa phone >}} &nbsp; 206-543-5579
+#### {{< fa phone >}} &nbsp; [xxx-xxx-xxxx]
 
-#### {{< fa map-location-dot >}} &nbsp; Department of Chemistry, CHB 304F, Seattle, WA 98195-1700
-
+#### {{< fa map-location-dot >}} &nbsp; [Department, Building/Room, City, State ZIP]
 
 :::
 
@@ -28,7 +20,7 @@ about:
 library(leaflet)
 leaflet() %>%
   addTiles() %>%  # Add default OpenStreetMap map tiles
-  addMarkers(lng=-122.30830, lat=47.65297)
+  addMarkers(lng = -122.3321, lat = 47.6062)  # placeholder marker: Seattle, WA — update to lab location
 ```
 
 <br>

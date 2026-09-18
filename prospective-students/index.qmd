@@ -1,0 +1,22 @@
+---
+title: "Prospective Students"
+page-layout: full
+---
+
+<hr>
+
+## Joining the Lab
+
+[Placeholder: describe the lab's mentorship approach and the kinds of students/backgrounds you're looking for.]
+
+## How to Apply
+
+[Placeholder: describe the application process — e.g., apply to the relevant graduate program and reach out directly, or apply for specific openings below.]
+
+## Current Openings
+
+[Placeholder: list current openings for graduate students, postdocs, or research assistants, or note that there are none at this time.]
+
+## Funding
+
+[Placeholder: describe funding sources, assistantships, or fellowship expectations.]

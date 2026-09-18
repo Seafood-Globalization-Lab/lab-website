@@ -1,0 +1,29 @@
+---
+title: "Teaching"
+page-layout: full
+---
+
+<hr>
+
+## Courses
+
+<!--
+Add one section per course below, following this pattern:
+
+### [Course number]: [Course title]
+**Term:** [e.g., Autumn 2026]
+
+[Brief course description, or a link to the syllabus.]
+-->
+
+### [Course Number]: [Course Title]
+**Term:** [Term/Year]
+
+[Course description placeholder — replace with real course details.]
+
+---
+
+### [Course Number]: [Course Title]
+**Term:** [Term/Year]
+
+[Course description placeholder — replace with real course details.]

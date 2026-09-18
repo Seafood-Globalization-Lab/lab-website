@@ -4,6 +4,7 @@
 .Ruserdata
 
 /.quarto/
+/_site/
 
 /.luarc.json
 .DS_Store

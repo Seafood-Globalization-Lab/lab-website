@@ -3,7 +3,7 @@
 # a script to create a new publication entry
 # creates a folder with the format <year>_<pub_number>_<short_title>
 # prompts the user for title, authors, category, url_source, url_preprint, journal, issue, page, year, image path
-# the categories can chosen predefined list of "fast_electron_nano-spectroscopy", nanophotonics-quantum_optics", and "photothermal_spectroscopy_and_microscopy". Number each choice 1, 2, and 3, and allow the user to enter multiple numbers
+# category is free text (there is no longer a predefined research-area list; update this script if you want to reintroduce one)
 # reformats the authors string into string with author names in quotes and separated by commas (removes the word 'and" and trims any whitespace')
 # writes the user input into a new index.qmd file
 # saves the new index.qmd file in the corresponding publication directory
@@ -38,21 +38,8 @@ read -p "Enter the page numbers of the publication (if applicable): " page
 authors_formatted=$(echo "$authors" | sed 's/ and / /g' | sed 's/\([^,]*\)/"\1"/g' | sed 's/" *\([^"]*\) *"/"\1"/g')
 
 
-# get category from predefined list
-echo "Choose a category for the publication:"
-echo "1. Fast electron nano-spectroscopy"
-echo "2. Nanophotonics-quantum optics"
-echo "3. Photothermal spectroscopy and microscopy"
-echo "0. skip"
-read -p "Enter your choice (1, 2, 3, or 0 to skip): " category_number
-
-case $category_number in
-    1) category="fast_electron_nano-spectroscopy" ;;
-    2) category="nanophotonics-quantum_optics" ;;
-    3) category="photothermal_spectroscopy_and_microscopy" ;;
-    0) category="" ;;
-    *) echo "Invalid choice. Exiting..." && exit 1 ;;
-esac
+# get category as free text (leave blank to skip)
+read -p "Enter a category for the publication (leave blank to skip): " category
 # write user input into a new index.qmd file
 echo "---
 title: \"$title\"
